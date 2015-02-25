@@ -22,7 +22,7 @@ outliers.ranking <- function(data,test.data=NULL,
                              method='sizeDiff',
                              method.pars=NULL,
                              clus=list(dist='euclidean',alg='hclust',
-                               meth='ward'),
+                               meth='ward.D'),
                              power=1,
                              verb=F) {
 
